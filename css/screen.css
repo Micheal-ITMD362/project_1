@@ -16,8 +16,8 @@ body {
 .container {
   background: #f8f9fa;
   padding: 30px;
-  width: 100%;
-  max-width: 300px;
+  width: 80%;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 10px 0px;
   text-align: center;
@@ -104,12 +104,4 @@ body {
     padding: 10px;
     font-size: 14px;
   }
-}
-
-.hasjs #subscribe {
-  position: relative;
-  margin: 0;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
 }
