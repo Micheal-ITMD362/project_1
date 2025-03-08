@@ -1,8 +1,14 @@
 jQuery(function ($) {
-  $('html').removeClass('nojs');
-  $("html").addClass("hasjs");
+  $('html').removeClass('nojs').addClass('hasjs');
+  
   $(".checkbox-container").on("click", function () {
-    $("#subscribe").prop("checked", true);
-    $(".checkbox-container").html("<p>&#10004;</p>");
+    let checkbox = $("#subscribe");
+    checkbox.prop("checked", !checkbox.prop("checked"));
+
+    if (checkbox.prop("checked")) {
+      $(".checkbox-container label").append(" <span class='checkmark'>&#10004;</span>");
+    } else {
+      $(".checkmark").remove();
+    }
   });
 });
