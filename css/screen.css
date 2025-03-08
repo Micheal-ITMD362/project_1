@@ -65,6 +65,10 @@ input[type="text"], input[type="email"], select {
   display: flex;
   align-items: center;
   gap: 10px;
+  height: 1em;
+  background-color: #83a466;
+  border-radius: 3.5px;
+  width: 1em;
   margin: 15px 0;
 }
 
@@ -100,4 +104,9 @@ body {
     padding: 10px;
     font-size: 14px;
   }
+}
+
+.hasjs #subscribe {
+  position: absolute;
+  right: 6000px;
 }
