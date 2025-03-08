@@ -89,11 +89,15 @@ body {
   background-image: url("../images/grass.webp");
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
 
-
-
-
-
-
-
-
+@media screen and (min-width: 480px) {
+  button#button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
