@@ -74,6 +74,9 @@ input[type="text"], input[type="email"], select {
 
 .checkbox-container label {
   margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 button#button {
